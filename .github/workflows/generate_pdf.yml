@@ -7,12 +7,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   name: Checkout
-                uses: actions/checkout@v2
+                uses: actions/checkout@v3.3.0
 
             -   name: Generate PDF
                 run: |
                     sudo apt install -y weasyprint
-                    command='/usr/bin/weasyprint The-Standard.html'
+                    command='/usr/bin/weasyprint The-Standard-Codex.html'
                     IFS=$'\n'
                     echo "<!DOCTYPE html><html><head><title>The Standard Codex</title>
                     <style>
@@ -26,13 +26,13 @@ jobs:
                         echo $json > json.blob
                         curl -u "${{ secrets.GITHUB_TOKEN }}" -X POST -H "Accept: application/vnd.github.v3+json" --data "@json.blob" https://api.github.com/markdown >> "$file.html"
                         echo "$(cat $file.html)" >> The-Standard.html
-                        echo "$separator" >> The-Standard.html
+                        echo "$separator" >> The-Standard-Codex.html
                     done
-                    echo "</body></html>" >> The-Standard.html
+                    echo "</body></html>" >> The-Standard-Codex.html
                     command="$command The-Standard-Codex.pdf"
                     bash -c $command
             - name: Archive production artifacts
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v3.1.2
               with:
                 name: output PDF
                 path: The-Standard-Codex.pdf
