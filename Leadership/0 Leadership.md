@@ -28,3 +28,21 @@ The Leader should trust his People to represent him or represent each other. Lea
 
 ### 0.4.0 Renewable Trust (N Chances)
 Leaders should allow those who violated their trust to get another chance or chances. Everyone deserves a second, third and N chance. It is up to The Leader to determine whether his People deserves a third chance, but a second chance is mandatory no matter how large the fault may be.
+
+## 0.5 Do as I Do
+The Leader shouldn't ask his People to do something he wouldn't do himself. The Leader should work the work of his People. This also means that The Leader should be skillful in what he does. People will not follow a Leader who is incompetent.
+
+## 0.6 Continuous Investments
+The Leader should continuously invest in his People. This includes their spiritual, intellectual and physical well-being.
+
+### 0.6.0 Spiritual Investment
+The Leader should bring his People happiness, joy and fun. This can be achieved through kindness, humbleness and cleverness. Spiritual fulfillment for The People can be through telling stories of hope and happiness. Sharing odd funny moments, chatting about interesting topics, sharing puts of life that are overall of interest.
+
+### 0.6.1 Intellectual Investment
+The Leader should always invest in the growth of his people. it starts with The Leader himself. They have to evolve intellectually so they can teach, mentor and help others evolve and grow. The Leader should always seek growth and market it to his People. Intellectual grwoth isn't always education but mentorship and experience.
+
+### 0.6.2 Physical Investments
+The Leader should always seek comfort for his People. Whether through tools they need, equipment or any other physical means to make it easier and simpler for them to achieve their purposes. This includes ensuring they are compensated properly for their effort, rewarded ad given prizes and all other means for them to grow.
+
+## 0.7 Just saying Hello
+The Leader should check in on his People only to say: "Hello". There should be no purpose or reason behind checking in. This keep-alive communication mechanism is super important to ensure The Leader's relationship with his People don't go stale, cold or dead.
