@@ -25,7 +25,7 @@ jobs:
                         json="{\"text\":$(cat json.blob)}";
                         echo $json > json.blob
                         curl -u "${{ secrets.GITHUB_TOKEN }}" -X POST -H "Accept: application/vnd.github.v3+json" --data "@json.blob" https://api.github.com/markdown >> "$file.html"
-                        echo "$(cat $file.html)" >> The-Standard.html
+                        echo "$(cat $file.html)" >> The-Standard-Codex.html
                         echo "$separator" >> The-Standard-Codex.html
                     done
                     echo "</body></html>" >> The-Standard-Codex.html
